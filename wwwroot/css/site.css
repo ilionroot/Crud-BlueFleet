@@ -1,0 +1,56 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.inputs {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.inputsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goToMainButton {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    border: 0;
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: 200ms ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.off {
+    user-select: none;
+    opacity: 0.15;
+    position: absolute;
+    left: 0;
+    filter: blur(5px);
+}
+
+.aux {
+    position: relative;
+    width: 6.65rem;
+    height: 7rem;
+}

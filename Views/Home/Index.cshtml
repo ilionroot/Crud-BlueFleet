@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <br />
+    <h1 class="display-4">CRUD - Blue Fleet</h1>
+    <br />
+    <p>Here you can list, create, edit and delete <b>CARS</b> from your own database.</p>
+    <br />
+    <div class="inputsDiv">
+        <div class="aux">
+            <input class="goToMainButton off" type="button" value="Go" />
+            <input class="goToMainButton" type="button" value="Go" onclick="@("window.location.href='" + @Url.Action("List", "Cars") + "'");" />
+        </div>
+    </div>
+    <br />
+    <br />
+    <p>Dev: <a target="_blank" href="https://github.com/ilionroot">ilionroot</a></p>
+</div>
